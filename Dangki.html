@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Dangki.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="https://kit.fontawesome.com/98638255fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!------- Menu -------->
+    <div class="navbar">
+        <a href="index.html">Trang chủ</a>
+        <div class="subnav">
+            <button class="subnavbtn">Tạp hóa Halloween <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="Betrai.html">Trang phục cho bé trai</a>
+                <a href="Begai.html">Trang phục cho bé gái</a>
+                <a href="phukienvatrangtri.html">Phụ kiện và trang trí</a>
+            </div>
+        </div> 
+        <a href="foodhlw.html">Món ăn chủ đề Halloween</a>
+        <a href="Lienhe.html">Giới thiệu</a>
+        <div style="float: right;" class="form"><a href="Dangki.html" style="float: left;">Đăng kí</a><a href="Dangnhap.html" style="float: left;">Đăng nhập</a></div>
+    </div>
+    <!--------->
+    <!-- Form -->
+    <div style="display: flex;justify-content: center; height: 100vh; align-items: center;"> 
+        <form action="#" class="dk">
+            <fieldset id="dk">
+                <h2>Đăng kí</h2>
+                <label class="lead" for="">Họ và tên</label><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0000;"></i><br>
+                <input class="input" id="name" type="text" placeholder="Tên đầy đủ của bạn"><br>
+                <label class="lead" for="">Email</label><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0000;"></i><br>
+                <input class="input" id="email" type="email" placeholder="Email của bạn"><br>
+                <label class="lead" class="pass" for="">Mật khẩu</label><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0000;"></i><br>
+                <input class="input" id="pass" type="password" placeholder="Nhập mật khẩu của bạn"> <button type="button" class="eyes"><i class="fa-solid fa-eye"></i></button><br>
+                <label class="lead" class="pass" for="">Nhập lại mật khẩu</label><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0000;"></i><br>
+                <input class="input" id="pass1"  type="password" placeholder="Nhập lại mật khẩu của bạn"> <button type="button" class="eyes"><i class="fa-solid fa-eye"></i></button><br>
+                <label class="lead" for="">Ngày sinh</label>
+                <input class="date" type="date"><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0000;"></i><br>
+                <div class="btn-tk">
+                    <button type="button" id="btn-đk">Đăng kí</button>
+                </div>
+                <div class="dn">
+                    <p id="p">(*)Đã có tài khoản? <a class="dangnhap" href="Dangnhap.html">Đăng nhập</a></p>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <script src="dangki.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+body{
+    background-image: url("https://marketplace.canva.com/EAFK5pOKsRw/2/0/1600w/canva-puprle-and-orange-illustration-halloween-zoom-virtual-background-4RVxNiRUpGA.jpg");
+    background-size: cover;
+    display: block;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+#dk{
+    background-color: white;
+    width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    
+}
+#dk > input{
+    padding-left: 40px;
+}
+form{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+#dk h2{
+    text-align: center;
+    font-weight: bold;
+}
+.lead{
+    font-weight: bold;
+}
+.input{
+    border: none;
+    text-decoration: underline blue;
+    width: 400px;
+    padding: 10px;
+}
+.lead{
+    padding: 10px;
+}
+#btn-đk{
+    background-color: rgb(103, 103, 184);
+    border: none;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 100px;
+}
+.date{
+    width: 100px;
+}
+#p{
+    font-style: italic;
+}
+.btn-tk{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+#btn-đk:hover{
+    background-color: rgb(81, 81, 151);
+}
+.dn{
+    display: flex;
+    justify-content: center;
+}
+.eyes{
+    border: none;
+    background-color: white;
+}
+.pass{
+    -webkit-text-security: circle;
+}
+/* Menu */
+.navbar {
+    overflow: hidden;
+    background-color: #333; 
+}
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: gray;
+}
+  
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(224, 72, 72);
+    width: 100%;
+}
+
+.subnav-content a {
+    color: white;
+    text-decoration: none;
+}
+  
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+.subnav:hover .subnav-content {
+    display: block;
+}

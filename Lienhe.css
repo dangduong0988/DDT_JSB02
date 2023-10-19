@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(255, 168, 7);
+}
+/* Menu */
+.navbar {
+    overflow: hidden;
+    background-color: #333; 
+}
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: gray;
+}
+  
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(224, 72, 72);
+    width: 100%;
+}
+
+.subnav-content a {
+    color: white;
+    text-decoration: none;
+}
+  
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+.subnav:hover .subnav-content {
+    display: block;
+}
+/* Body */
+.content{
+    width: 1300px;
+    background-image: url(https://sangodaogia.com/wp-content/uploads/2021/06/San-go-Kansas-KS80-2.jpg);
+    background-size: 1350px;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    padding: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 32px 15px 50px 15px;
+    background-color: gray;
+}
+.footer-items>i:hover, .footer-items>a:hover{
+    color: #eee;
+}
+.footer-items > i{
+    margin-right: 10px;
+    font-size: 30px;
+}
+.footer-items > a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.footer .footer-items{
+    width: 360px;
+    text-align: left;
+    padding: 14px 0px;
+}
+.footer .footer-items h5{
+    font-size: 15px;
+}
+.footer .footer-items .content-ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 0px;
+}
+.footer .footer-items .content-ul .sub-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 37px;
+}
+/*  */
+/* Darkmode-btn */
+.btn-darkmode{
+    color: white;
+    border: 0px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
